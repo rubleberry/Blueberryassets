@@ -1,0 +1,15 @@
+.vs/
+.vsconfig
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+AutodestMeshmixerObject/
+Blueberry.sln
+BuildOutput/
+Library/
+Logs/
+Models/
+Packages/
+Temp/
+UserSettings/
+obj/
+Assets/Scripts
