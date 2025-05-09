@@ -229,7 +229,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 29960626948862579}
   m_HandleRect: {fileID: 0}
@@ -323,7 +323,6 @@ GameObject:
   - component: {fileID: 424709448244416375}
   - component: {fileID: 6847133056671344650}
   - component: {fileID: 7424972669339832620}
-  - component: {fileID: 6815978071503329091}
   m_Layer: 0
   m_Name: BuildingCanvas
   m_TagString: Untagged
@@ -414,18 +413,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &6815978071503329091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6006152528850542522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa0938f027c5b4e43acf6ac89b06ff8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6755348064728669153
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,15 +459,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 46f78f9d3e5f2d141a71647a16cb6fb0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.14
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f78f9d3e5f2d141a71647a16cb6fb0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.14
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f78f9d3e5f2d141a71647a16cb6fb0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.14
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f78f9d3e5f2d141a71647a16cb6fb0, type: 3}
       propertyPath: m_LocalPosition.x

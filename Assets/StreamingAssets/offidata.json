@@ -1,0 +1,74 @@
+{
+    "officers": [
+        {
+            "id": 0,
+            "lea": 88,
+            "str": 99,
+            "Int": 32,
+            "pol": 22,
+            "cha": 43,
+            "name": "ZhangFei",
+            "troops": 0,
+            "morale": 0,
+            "atk": 0,
+            "def": 0,
+            "mov": 0
+        },
+        {
+            "id": 1,
+            "lea": 96,
+            "str": 98,
+            "Int": 77,
+            "pol": 64,
+            "cha": 93,
+            "name": "GuanYu",
+            "troops": 0,
+            "morale": 0,
+            "atk": 0,
+            "def": 0,
+            "mov": 0
+        },
+        {
+            "id": 2,
+            "lea": 78,
+            "str": 76,
+            "Int": 75,
+            "pol": 77,
+            "cha": 99,
+            "name": "LiuBei",
+            "troops": 0,
+            "morale": 0,
+            "atk": 0,
+            "def": 0,
+            "mov": 0
+        },
+        {
+            "id": 0,
+            "lea": 0,
+            "str": 0,
+            "Int": 0,
+            "pol": 0,
+            "cha": 0,
+            "name": "",
+            "troops": 0,
+            "morale": 0,
+            "atk": 0,
+            "def": 0,
+            "mov": 0
+        },
+        {
+            "id": 0,
+            "lea": 0,
+            "str": 0,
+            "Int": 0,
+            "pol": 0,
+            "cha": 0,
+            "name": "",
+            "troops": 0,
+            "morale": 0,
+            "atk": 0,
+            "def": 0,
+            "mov": 0
+        }
+    ]
+}
