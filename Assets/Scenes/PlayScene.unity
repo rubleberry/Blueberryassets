@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 41798383}
   m_Layer: 5
   m_Name: BuildingMenu
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -292,9 +292,9 @@ RectTransform:
   - {fileID: 2088258432}
   m_Father: {fileID: 293232862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 250, y: 225}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41798380
@@ -1164,7 +1164,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 246464975}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 825202409}
+        m_TargetAssemblyTypeName: UnitDeployManager, Assembly-CSharp
+        m_MethodName: Apply
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &246464975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2866,7 +2878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 167.00046}
+  m_AnchoredPosition: {x: -0.000030517578, y: 166.99997}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &545780744
@@ -3832,7 +3844,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 240832364}
   m_HandleRect: {fileID: 240832363}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3890,7 +3902,7 @@ GameObject:
   - component: {fileID: 825202409}
   m_Layer: 5
   m_Name: UnitDeployPanel
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3904,7 +3916,7 @@ RectTransform:
   m_GameObject: {fileID: 825202405}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 840469854}
@@ -4391,7 +4403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00030517578, y: 117.00071}
+  m_AnchoredPosition: {x: 0, y: 117.00008}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1022240183
@@ -4995,7 +5007,7 @@ GameObject:
   - component: {fileID: 1171098152}
   m_Layer: 0
   m_Name: OptionsMenuManager
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6994,8 +7006,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 162623725}
   m_HandleRect: {fileID: 162623724}
   m_Direction: 2
-  m_Value: -0.0000029238408
-  m_Size: 0.44328347
+  m_Value: 0.000000091370026
+  m_Size: 0.44311732
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8425,8 +8437,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1378788790}
   m_HandleRect: {fileID: 1378788789}
   m_Direction: 2
-  m_Value: -0.000006260016
-  m_Size: 0.60993165
+  m_Value: 0
+  m_Size: 0.6097025
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9788,9 +9800,11 @@ MonoBehaviour:
   _isLMDownForDrag: 0
   _isLMDownForUnit: 0
   _isRMDownForRota: 0
+  _isRMDownForInfo: 0
   _isMouseOnTile: 0
   _isCameraMode: 1
   _isMoveMode: 0
+  _isMenuMode: 0
   _isTargetMode: 0
 --- !u!114 &2088839018
 MonoBehaviour:
