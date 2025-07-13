@@ -2893,7 +2893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 167.00055}
+  m_AnchoredPosition: {x: -0.000030517578, y: 166.99992}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &545780744
@@ -4418,7 +4418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 117.00091}
+  m_AnchoredPosition: {x: 0, y: 117.00012}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1022240183
@@ -6189,7 +6189,7 @@ MonoBehaviour:
   grid: {fileID: 351395568}
   unitPrefabs:
   - {fileID: 9004465762650462155, guid: 99051a71b950da24b847e703cd60b1f7, type: 3}
-  - {fileID: 5280913239341999482, guid: fce75602cc97bcf4bbb8aed9b03d4538, type: 3}
+  - {fileID: 5280913239341999482, guid: c8390ef359dabe94f8df2bcb5ab2a1f4, type: 3}
   - {fileID: 5017849533856101566, guid: 075a6013d3a181244a59c4ef6f766d17, type: 3}
   tilePrefabs:
   - {fileID: 4785061946049100366, guid: 232f02253bf448e4193619a0d8b0fac1, type: 3}
@@ -7022,8 +7022,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 162623725}
   m_HandleRect: {fileID: 162623724}
   m_Direction: 2
-  m_Value: -0.000003015211
-  m_Size: 0.42293754
+  m_Value: 0.000000091370026
+  m_Size: 0.44266036
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8453,8 +8453,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1378788790}
   m_HandleRect: {fileID: 1378788789}
   m_Direction: 2
-  m_Value: -0.000008346688
-  m_Size: 0.58193725
+  m_Value: 0
+  m_Size: 0.6090747
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9968,7 +9968,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 52
+  field of view: 14
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -9994,13 +9994,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088839016}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.3736123, y: 0.19996412, z: -0.08282785, w: 0.90198}
-  m_LocalPosition: {x: 0.7, y: 3, z: -0.7}
+  m_LocalRotation: {x: 0.29883623, y: 0.64085644, z: -0.29883623, w: 0.64085644}
+  m_LocalPosition: {x: -0.96, y: 3.194, z: 2.455}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 45, y: 25, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 90, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
