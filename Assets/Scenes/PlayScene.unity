@@ -2795,6 +2795,7 @@ MonoBehaviour:
     name: 
     force: 0
     troops: 0
+    maxTroops: 5000
     morale: 0
     atk: 0
     def: 0
@@ -2810,6 +2811,7 @@ MonoBehaviour:
     name: 
     force: 0
     troops: 0
+    maxTroops: 5000
     morale: 0
     atk: 0
     def: 0
@@ -2825,6 +2827,7 @@ MonoBehaviour:
     name: 
     force: 0
     troops: 0
+    maxTroops: 5000
     morale: 0
     atk: 0
     def: 0
@@ -2840,6 +2843,7 @@ MonoBehaviour:
     name: 
     force: 0
     troops: 0
+    maxTroops: 5000
     morale: 0
     atk: 0
     def: 0
@@ -2855,6 +2859,7 @@ MonoBehaviour:
     name: 
     force: 0
     troops: 0
+    maxTroops: 5000
     morale: 0
     atk: 0
     def: 0
@@ -2893,7 +2898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: 167.0007}
+  m_AnchoredPosition: {x: -0.000030517578, y: 167.00006}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &545780744
@@ -4418,7 +4423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 117.00105}
+  m_AnchoredPosition: {x: 0, y: 117.00008}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1022240183
@@ -7022,7 +7027,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 162623725}
   m_HandleRect: {fileID: 162623724}
   m_Direction: 2
-  m_Value: -0.0000044771314
+  m_Value: 0.000000091370026
   m_Size: 0.44333342
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -8453,7 +8458,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1378788790}
   m_HandleRect: {fileID: 1378788789}
   m_Direction: 2
-  m_Value: -0.000008346688
+  m_Value: 0
   m_Size: 0.61
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -8711,17 +8716,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!108 &1817118943
 Light:
   m_ObjectHideFlags: 0
@@ -9918,7 +9929,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -9926,6 +9936,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!81 &2088839019
 AudioListener:
   m_ObjectHideFlags: 0
